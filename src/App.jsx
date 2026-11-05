@@ -10,7 +10,7 @@ import Courses from "./pages/Courses";
 import CourseOutline from "./pages/CourseOutline";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/contact";
-
+import Apply from "./pages/Apply";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
