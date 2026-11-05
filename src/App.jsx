@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-
 import mikkyLogo from "./assets/mikkylogo.jpeg";
 
 import Home from "./pages/Home";
@@ -10,8 +9,7 @@ import About from "./pages/About";
 import Courses from "./pages/Courses";
 import CourseOutline from "./pages/CourseOutline";
 import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
-import Apply from "./pages/Apply";
+import Contact from "./pages/contact";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
